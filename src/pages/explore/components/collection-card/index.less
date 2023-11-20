@@ -1,0 +1,36 @@
+.kip-collection-card {
+  position: relative;
+
+  .kip-collection-card__cover {
+    margin-bottom: 16px;
+    width: 280px;
+    height: 372px;
+    border-radius: 16px;
+    vertical-align: bottom;
+    transition: transform 0.2s ease-in;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+  }
+
+  .kip-collection-card__name {
+    position: absolute;
+    bottom: 56px;
+    width: 280px;
+    padding: 18px;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .kip-collection-card__trade {
+    width: 280px;
+
+    .kip-collection-card__link {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

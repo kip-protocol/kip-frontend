@@ -1,0 +1,113 @@
+.p-detail {
+  .kip-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 200px;
+    transform: translateY(-100px);
+
+    .kip-main__left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 16px;
+
+      .kip-cover {
+        margin-bottom: 16px;
+        width: 280px;
+        height: 372px;
+        vertical-align: bottom;
+        border-radius: 16px;
+      }
+
+      .kip-withdraw {
+        text-align: center;
+      }
+    }
+
+    .kip-main__right {
+      width: 750px;
+
+      .kip-info {
+        padding: 32px;
+        background-color: #18181b;
+        border-radius: 16px;
+
+        .kip-info__name {
+          margin-bottom: 16px;
+          font-size: 48px;
+          font-weight: 700;
+        }
+
+        .kip-info__owner {
+          margin-bottom: 16px;
+        }
+
+        .kip-info__description {
+          margin-bottom: 16px;
+
+          .kip-label {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 36px;
+          }
+
+          .kip-value {
+            color: #999;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: -0.32px;
+          }
+        }
+
+        .kip-info__price {
+          .kip-label {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 36px;
+          }
+
+          .kip-value {
+            color: #999;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: -0.32px;
+          }
+        }
+      }
+
+      .kip-history {
+        .kip-query-item {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 16px;
+          padding: 16px;
+          border-radius: 16px;
+          background-color: #18181b;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          .kip-query__info {
+            .kip-query__question {
+              margin-bottom: 8px;
+              color: #ddd;
+              font-weight: 600;
+            }
+
+            .kip-query__other {
+              .kip-query__time {
+                margin-right: 8px;
+                color: #999;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

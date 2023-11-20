@@ -1,0 +1,57 @@
+.kip-footer {
+  padding: 50px 100px;
+background: #bbbbbb;
+
+  &.divide {
+    border-top: 1px solid rgba(221, 221, 221, 0.3);
+  }
+
+  .kip-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    .kip-brand {
+      color: #ffffff;
+      font-size: 40px;
+      font-weight: 900;
+      line-height: 40px;
+      letter-spacing: 1.2px;
+    }
+
+    .kip-social {
+      display: flex;
+
+      &__item {
+        width: 40px;
+        height: 40px;
+        margin-right: 32px;
+        padding: 12px;
+        background-color: #18181b;
+        border-radius: 50%;
+
+        img {
+          width: 16px;
+          height: 16px;
+          vertical-align: baseline;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .kip-copyright {
+    color: #5e6b7e;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.36px;
+  }
+}

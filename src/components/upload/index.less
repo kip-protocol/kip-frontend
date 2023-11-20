@@ -1,0 +1,52 @@
+.kip-dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+
+  .kip-dropzone__placeholder {
+    margin-bottom: 10px;
+    color: #ddd;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+
+    span {
+      color: #01f7ff;
+    }
+  }
+
+  .kip-dropzone__tip {
+    color: #777e90;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  .kip-dropzone__preview {
+    .kip-dropzone__preview-doc {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #ddd;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 24px;
+
+      .kip-dropzone__preview-tip {
+        margin-top: 8px;
+        color: #01f7ff;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+      }
+    }
+  }
+}
